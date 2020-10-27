@@ -1,14 +1,14 @@
 <template>
-  <Header title="Vue Composition API" />
+  <HomePage />
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import HomePage from "./pages/Home.vue";
 
 export default {
   name: "App",
   components: {
-    Header
+    HomePage
   }
 };
 </script>
